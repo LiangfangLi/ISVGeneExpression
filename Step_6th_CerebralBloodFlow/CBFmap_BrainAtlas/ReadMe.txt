@@ -1,0 +1,3 @@
+Put the cerebral blood flow map and brain parcellation atlas into this folder "CBFmap_BrainAtlas".
+The cerebral blood flow map can be obtained from Satterthwaite et al. (2014).
+Reference: Satterthwaite, T.D., Shinohara, R.T., Wolf, D.H., Hopson, R.D., Elliott, M.A., Vandekar, S.N., Ruparel, K., Calkins, M.E., Roalf, D.R., Gennatas, E.D., Jackson, C., Erus, G., Prabhakaran, K., Davatzikos, C., Detre, J.A., Hakonarson, H., Gur, R.C., Gur, R.E., 2014. Impact of puberty on the evolution of cerebral perfusion during adolescence. Proc. Natl. Acad. Sci. 111, 8643–8648. https://doi.org/10.1073/pnas.1400178111

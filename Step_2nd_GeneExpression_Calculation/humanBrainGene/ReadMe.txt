@@ -1,0 +1,2 @@
+The gene symbol list of Four hundred and fifteen HAR-BRAIN gene symbol and BRAIN gene symbol (for gene-specificity anlysis) should be put into this folder "humanBrainGene".
+The gene symbol list of Four hundred and fifteen brain-expressed HAR genes (HAR-BRAIN genes) and BRAIN genes were obtained from Wei et al. (2019).

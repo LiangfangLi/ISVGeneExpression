@@ -1,0 +1,1 @@
+Put brain parcellation atlas into this folder "brain_mask".

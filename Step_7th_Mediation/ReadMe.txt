@@ -1,0 +1,2 @@
+The mediation analysis was performed using PROCESS macro in SPSS (Hayes, 2017). 
+Reference: Hayes, A.F., 2017. Introduction to mediation, moderation, and conditional process analysis: A regression-based approach. Guilford publications.
