@@ -1,6 +1,6 @@
 # ISVGeneExpression
 
-The codes of our preprint paper entitled "Gene Expression Associated with Individual Variability in Intrinsic Functional Connectivity".
+The codes of our NeuroImage paper entitled "Gene Expression Associated with Individual Variability in Intrinsic Functional Connectivity".
 
 Citing our paper will be greatly appreciated if you use these codes.
 
