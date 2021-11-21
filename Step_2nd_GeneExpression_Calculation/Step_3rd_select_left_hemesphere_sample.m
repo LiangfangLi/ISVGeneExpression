@@ -10,11 +10,10 @@ addpath(genpath(FunctionFolder));
 % load SampleAnnot file
 dornor_list = kb_ls(fullfile(Step_2nd_Folder,'raw_gene','combined_data','H*'))
 for i=1:size(dornor_list,1)
-        % confirm with donor 6
-        SampleAnnot = readtable(fullfile(dornor_list{i},'gene','SampleAnnot.csv'),'Encoding', 'UTF-8'); % 895 for donor_6
+        SampleAnnot = readtable(fullfile(dornor_list{i},'gene','SampleAnnot.csv'),'Encoding', 'UTF-8'); 
         SampleAnnot = SampleAnnot(:,[11,12,13,5,6]); % keep only MNI and annot name
         SampleAnnot.sample_id = [1:size(SampleAnnot,1)]';
-        SampleAnnot_only_left{i} = SampleAnnot(find(contains(SampleAnnot{:,5},'left')==1),:); % 418 for donor_6
+        SampleAnnot_only_left{i} = SampleAnnot(find(contains(SampleAnnot{:,5},'left')==1),:); 
 end
 SampleAnnot_only_left = SampleAnnot_only_left';
 save(fullfile(Step_2nd_Folder,'wd_data','SampleAnnot_only_left.mat'), 'SampleAnnot_only_left');
