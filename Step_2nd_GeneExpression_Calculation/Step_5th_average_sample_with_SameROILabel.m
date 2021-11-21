@@ -12,7 +12,7 @@ addpath(genpath(FunctionFolder),DataFolder);
 load('assign_sample_to_ROI.mat') 
 for i = 1:size(assign_sample_to_ROI,1)
         donori = assign_sample_to_ROI{i};
-        matched_roi_list{i} = unique(donori.matched_ROI_ID(donori.matched_ROI_ID > 0,:)); %specific 的 ROI list 不代表可用的 sample 的数量
+        matched_roi_list{i} = unique(donori.matched_ROI_ID(donori.matched_ROI_ID > 0,:)); 
 end
 matched_roi_list = matched_roi_list';
 union_roi_list_in6donors = unique(cat(1, matched_roi_list{:}));
